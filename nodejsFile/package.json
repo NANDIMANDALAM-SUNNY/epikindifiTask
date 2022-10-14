@@ -1,0 +1,25 @@
+{
+  "name": "task",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "mongoose": "^6.6.5",
+    "morgan": "~1.9.1",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "exlint": "^0.1.6",
+    "nodemon": "^2.0.20"
+  }
+}
